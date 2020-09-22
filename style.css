@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("img/sfondo-body.png");
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.top-header {
+  background-image: url("img/sfondo-header.jpg");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid white;
+}
+
+.img-header {
+  text-align: center;
+}
+
+.img-header h2 {
+  color: white;
+}
+
+.bottom-header {
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+
+}
+
+.nav li {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav li:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.colonna {
+  float: left;
+}
+
+.box {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.prima-colonna, .terza-colonna {
+  width: 20%;
+}
+
+.seconda-colonna {
+  width: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-box {
+  background-color: white;
+  height: 100px;
+  text-align: center;
+}
+
+.footer-box hr{
+  border-color: lightgrey;
+}
