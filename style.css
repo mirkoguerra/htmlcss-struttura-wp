@@ -88,10 +88,38 @@ body {
 
 .footer-box {
   background-color: white;
-  height: 100px;
   text-align: center;
+  color: lightgrey;
+  width: 100%;
 }
 
 .footer-box hr{
   border-color: lightgrey;
+}
+
+.footer-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-row {
+  width: 60%;
+  margin: auto;
+}
+
+.footer-colonna {
+  float: left;
+}
+
+.facebook, .amelia {
+  width: 33%;
+}
+
+.instagram{
+  width: 34%;
+}
+
+footer img{
+  height: 50px;
 }
